@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>simple html css sidebar 01 </title>
+    <script src="assets/js/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="assets/css/bootstrap.css">
+    <link rel="stylesheet"
+        href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="assets/css/style.css">
+</head>
+<body>
+   <div class="container-fluid">
+    <div class="row">
+        <div id="example"
+            class="sidebar-hide">
+            <div class="sidebar">
+              <h4>LOGO HERE</h4>
+              <ul class="sidebar-menu">
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+                <li>Menu 4</li>
+              </ul>
+            </div>
+        </div>
+        <div class="col-sm-12 pt-4">
+            <div class="container">
+                <button class="postion-center btn btn-dark">Show Sidebar</button>
+              <h3>Page Content Here</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tempor quam. Duis id diam luctus, mollis turpis in, bibendum metus. Fusce dapibus velit vel dolor interdum, in vehicula nulla accumsan. Proin consectetur ut ante in lobortis. Donec fringilla, erat a ultricies congue, dolor risus efficitur orci, vitae placerat neque velit sit amet nisi. Nunc commodo, diam vitae commodo gravida, justo orci venenatis eros, et ornare tortor ligula eu nunc. Nulla facilisi. Phasellus consequat consequat ex, a ornare enim pellentesque nec. Mauris iaculis urna vitae lacus convallis commodo. Mauris id arcu purus. Nulla quis lacus nec massa elementum ullamcorper molestie et tellus.</p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <footer>
+    <p class="text-center">Created by <a href="https://sujitkhandagale.in" target="_blank">sujit khandagale</a></p>
+   </footer>
+    <script type="text/javascript">
+        $("button").click(function () {
+            $("#example").toggleClass('sidebar-hide');
+        });
+    </script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
